@@ -4,12 +4,12 @@ import Header from "../../components/header"
 import { Link } from "gatsby"
 
 export default function Home() {
-  return <div>
+  return (
+    <div>
       <Nav />
       <Header />
-      <p>
-        PUMA x J.Cole
-      </p>
+      <p>PUMA x J.Cole</p>
       <Link to="/work/">Back to Work</Link>
-  </div>
+    </div>
+  )
 }

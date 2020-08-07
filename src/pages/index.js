@@ -3,11 +3,11 @@ import Nav from "../components/nav"
 import Header from "../components/header"
 
 export default function Home() {
-  return <div>
+  return (
+    <div>
       <Nav />
       <Header />
-      <p>
-        Home
-      </p>
-  </div>
+      <p>Home</p>
+    </div>
+  )
 }
