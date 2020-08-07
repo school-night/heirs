@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+a {
+  color: white;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: white;
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand {
+  /* padding: 0; */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
