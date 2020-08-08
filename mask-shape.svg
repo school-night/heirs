@@ -1,6 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1104 374">
-  <clipPath id="myClip">
-    <polygon class="a" points="1104 196 1028.29 284.87 757.67 284.87 681.9 374 0 374 151.48 196 1104 196"/>
-    <polygon class="a" points="1104 0 1028.29 88.94 757.73 88.94 681.85 178 0 178 151.48 0 1104 0"/>
-  </clipPath>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1104px" height="374px" viewBox="0 0 1104 374" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M1104,196 L1028.29028,284.871665 L757.6695,284.871665 L681.90255,374 L0,374 L151.476674,196 L1104,196 Z M1104,0 L1028.29028,88.9358327 L757.726726,88.9358327 L681.845324,178 L0,178 L151.476674,0 L1104,0 Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
 </svg>
