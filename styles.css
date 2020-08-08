@@ -28,8 +28,3 @@ a:hover {
 .clipped {
   clip-path: url(#clip-source);
 }
-
-.x {
-  display: block;
-  border: 10px solid red;
-}
