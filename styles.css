@@ -15,14 +15,14 @@ a:hover {
   text-decoration: none;
 }
 
-.navbar {
+/* .navbar {
   padding: 0;
-}
+} */
 
 .navbar-brand {
-  /* padding: 0; */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  margin-right: 0;
 }
 
 .clipped {
