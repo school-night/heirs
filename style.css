@@ -28,3 +28,17 @@ a:hover {
 .clipped {
   clip-path: url(#clip-source);
 }
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.footer {
+  text-align: center;
+  font-size: small;
+}
