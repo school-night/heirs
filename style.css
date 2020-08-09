@@ -2,6 +2,21 @@ body {
   background-color: black;
   color: white;
   font-family: "IBM Plex Mono", monospace;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.u-flex-grow-1 {
+  flex-grow: 1;
+}
+
+.u-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 a {
@@ -15,17 +30,13 @@ a:hover {
   text-decoration: none;
 }
 
-a.work-preview:hover {
+a[data-video-trigger]:hover {
   opacity: 100%;
 }
 
-a.work-preview:hover .pt-2 {
+a[data-video-trigger]:hover .pt-2 {
   opacity: 50%;
 }
-
-/* .navbar {
-  padding: 0;
-} */
 
 .navbar-brand {
   padding-top: 0.5rem;
@@ -35,15 +46,6 @@ a.work-preview:hover .pt-2 {
 
 .clipped {
   clip-path: url(#clip-source);
-}
-
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  min-width: 100vw;
 }
 
 .footer {
@@ -68,10 +70,4 @@ a.work-preview:hover .pt-2 {
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-.center-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
