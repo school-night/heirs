@@ -1,15 +1,15 @@
 "use strict"
 ;(function () {
   // play and pause videos on hover
-  const videoContainers = [
-    ...document.getElementsByClassName("video-container"),
+  const videoTriggers = [
+    ...document.querySelectorAll('[data-video-trigger]')
   ]
-  videoContainers.map(container => {
-    const video = container.querySelectorAll("video")[0]
-    container.addEventListener("mouseenter", e => {
+  videoTriggers.map(trigger => {
+    const video = trigger.querySelectorAll("video")[0]
+    trigger.addEventListener("mouseenter", e => {
       video.play()
     })
-    container.addEventListener("mouseleave", e => {
+    trigger.addEventListener("mouseleave", e => {
       video.pause()
     })
   })
