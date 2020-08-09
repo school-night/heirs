@@ -15,6 +15,14 @@ a:hover {
   text-decoration: none;
 }
 
+a.work-preview:hover {
+  opacity: 100%;
+}
+
+a.work-preview:hover .pt-2 {
+  opacity: 50%;
+}
+
 /* .navbar {
   padding: 0;
 } */
