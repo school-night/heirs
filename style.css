@@ -46,6 +46,7 @@ a[data-video-trigger]:hover .pt-2 {
 
 .clipped {
   clip-path: url(#clip-source);
+  -webkit-clip-path: url(#clip-source);
 }
 
 .footer {
