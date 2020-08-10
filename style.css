@@ -46,7 +46,6 @@ a[data-video-trigger]:hover .pt-2 {
 
 .clipped {
   clip-path: url(#clip-source);
-  -webkit-clip-path: url(#clip-source);
 }
 
 .footer {
@@ -60,17 +59,16 @@ a[data-video-trigger]:hover .pt-2 {
 
 .aspect-ratio-box {
   position: relative;
-  height: 0;
-  /* overflow: hidden; necessary? */
-  padding-top: calc(374 / 1104 * 100%); /* this is the magic */
+  overflow: hidden;
+  padding-top: calc(374 / 1104 * 100%); /* svg dimensions */
 }
 
 .aspect-ratio-box-inside {
   position: absolute;
   top: 0;
+  right: 0;
+  bottom: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .about-text {
