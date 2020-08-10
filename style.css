@@ -72,3 +72,11 @@ a[data-video-trigger]:hover .pt-2 {
   width: 100%;
   height: 100%;
 }
+
+.about-text {
+  max-width: 800px;
+}
+
+.about-signoff {
+  opacity: 66%;
+}
