@@ -31,11 +31,11 @@ a:hover {
 }
 
 a[data-video-trigger]:hover {
-  opacity: 100%;
+  opacity: 100%; /* override hover style */
 }
 
 a[data-video-trigger]:hover .pt-2 {
-  opacity: 66%;
+  opacity: 66%; /* reinstate hover style */
 }
 
 .navbar-brand {
