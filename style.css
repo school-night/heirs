@@ -2,7 +2,7 @@ body {
   background-color: black;
   color: white;
   font-family: "IBM Plex Mono", monospace;
-
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
