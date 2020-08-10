@@ -57,20 +57,6 @@ a[data-video-trigger]:hover .pt-2 {
   border: 10px solid red;
 }
 
-.aspect-ratio-box {
-  position: relative;
-  overflow: hidden;
-  padding-top: calc(374 / 1104 * 100%); /* svg dimensions */
-}
-
-.aspect-ratio-box-inside {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
 .about-text {
   max-width: 800px;
 }
