@@ -38,8 +38,7 @@ a[data-video-trigger]:hover .pt-2 {
 }
 
 .navbar-brand {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0;
   margin-right: 0;
 }
 
@@ -52,6 +51,12 @@ big logo vertically centered
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.nav {
+  font-size: small;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .clipped {
@@ -73,9 +78,4 @@ big logo vertically centered
 
 .about-signoff {
   opacity: 66%;
-}
-
-.flex-column {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
 }
