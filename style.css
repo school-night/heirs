@@ -25,7 +25,7 @@ a {
 
 a:hover {
   color: white;
-  opacity: 66%;
+  opacity: 60%;
   text-decoration: none;
 }
 
@@ -34,7 +34,7 @@ a[data-video-trigger]:hover {
 }
 
 a[data-video-trigger]:hover .pt-2 {
-  opacity: 66%; /* reinstate hover style */
+  opacity: 60%; /* reinstate hover style */
 }
 
 .navbar-brand {
@@ -77,5 +77,5 @@ big logo vertically centered
 }
 
 .faded-text {
-  opacity: 66%;
+  opacity: 60%;
 }
