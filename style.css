@@ -43,6 +43,17 @@ a[data-video-trigger]:hover .pt-2 {
   margin-right: 0;
 }
 
+/*
+this allows the homepage content to
+fill the full height and makes the
+big logo vertically centered
+*/
+.navbar-forced-placement {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .clipped {
   clip-path: url(#clip-source);
 }
@@ -57,7 +68,7 @@ a[data-video-trigger]:hover .pt-2 {
 }
 
 .about-text {
-  max-width: 800px;
+  max-width: 70ch;
 }
 
 .about-signoff {
