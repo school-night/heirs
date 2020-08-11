@@ -63,3 +63,8 @@ a[data-video-trigger]:hover .pt-2 {
 .about-signoff {
   opacity: 66%;
 }
+
+.flex-column {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
