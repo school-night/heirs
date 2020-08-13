@@ -54,10 +54,10 @@ big logo vertically centered
   right: 0;
 }
 
-.nav {
+/* .nav {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
+} */
 
 .clipped {
   clip-path: url(#clip-source);
