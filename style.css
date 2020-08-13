@@ -24,17 +24,17 @@ a {
   transition: 0.2s;
 }
 
-a:hover {
+a:hover, a:active { /* testing active state for mobile */
   color: white;
   opacity: 60%;
   text-decoration: none;
 }
 
-a[data-video-trigger]:hover {
+a[data-video-trigger]:hover, a[data-video-trigger]:active {
   opacity: 100%; /* override hover style */
 }
 
-a[data-video-trigger]:hover .pt-2 {
+a[data-video-trigger]:hover .pt-2, a[data-video-trigger]:active .pt-2 {
   opacity: 60%; /* reinstate hover style */
 }
 
