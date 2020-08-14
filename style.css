@@ -79,3 +79,20 @@ big logo vertically centered
 .faded-text {
   opacity: 60%;
 }
+
+/* MAILCHIMP FORM */
+#mc_embed_signup input[type='email'] {
+  color: white;
+  background: black;
+  border: 1px solid white;
+  outline: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#mc_embed_signup input[type='submit'] {
+  border: 1px solid white;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+}
