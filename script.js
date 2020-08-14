@@ -1,8 +1,7 @@
 "use strict"
 ;(function () {
   const isMobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
-  alert(isMobile)
-
+  // alert(isMobile)
 
   const videoTriggers = [
     ...document.querySelectorAll('[data-video-trigger]')
