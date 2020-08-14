@@ -1,16 +1,25 @@
 "use strict"
 ;(function () {
-  // play and pause videos on hover
+  const isMobile = (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))
+  // console.log({isMobile})
+
+
   const videoTriggers = [
     ...document.querySelectorAll('[data-video-trigger]')
   ]
   videoTriggers.map(trigger => {
     const video = trigger.querySelectorAll("video")[0]
-    trigger.addEventListener("mouseenter", e => {
+    if (isMobile) {
+      // play all videos
       video.play()
-    })
-    trigger.addEventListener("mouseleave", e => {
-      video.pause()
-    })
+    } else {
+      // play and pause videos on hover
+      trigger.addEventListener("mouseenter", e => {
+        video.play()
+      })
+      trigger.addEventListener("mouseleave", e => {
+        video.pause()
+      })
+    }
   })
 })()
