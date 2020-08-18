@@ -54,11 +54,6 @@ big logo vertically centered
   right: 0;
 }
 
-/* .nav {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-} */
-
 .clipped {
   clip-path: url(#clip-source);
 }
@@ -81,7 +76,7 @@ big logo vertically centered
 }
 
 /* MAILCHIMP FORM */
-#mc_embed_signup input[type='email'] {
+#mc_embed_signup input[type="email"] {
   color: white;
   background: black;
   border: 1px solid white;
@@ -90,7 +85,7 @@ big logo vertically centered
   padding: 10px;
 }
 
-#mc_embed_signup input[type='submit'] {
+#mc_embed_signup input[type="submit"] {
   border: 1px solid white;
   background: black;
   color: white;
