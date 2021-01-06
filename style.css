@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
+.u-padding-0 {
+  padding: 0;
+}
+
 a {
   color: white;
   transition: 0.2s;
@@ -43,6 +47,14 @@ a[data-video-trigger]:hover .pt-2 {
   margin-right: 0;
 }
 
+.landing-video {
+  width: 100%;
+}
+
+.landing-video video {
+  pointer-events: none;
+}
+
 /*
 this allows the homepage content to
 fill the full height and makes the
@@ -52,6 +64,7 @@ big logo vertically centered
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 1;
 }
 
 .clipped {
