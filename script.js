@@ -24,13 +24,4 @@
       })
     }
   })
-
-  // homepage audio
-  const homepageAudio = document.querySelectorAll("audio")[0]
-  const musicPlay = () => {
-    console.log(homepageAudio, "musicPlay")
-    homepageAudio.play()
-    document.removeEventListener("click", musicPlay)
-  }
-  document.addEventListener("click", musicPlay)
 })()
