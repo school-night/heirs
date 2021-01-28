@@ -64,6 +64,11 @@ a[data-video-trigger]:hover .pt-2 {
   width: 100%;
 }
 
+.landing-video:hover {
+  /* override link opacity change */
+  opacity: 1;
+}
+
 .landing-video video {
   pointer-events: none;
 }
