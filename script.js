@@ -24,4 +24,13 @@
       })
     }
   })
+
+  const enterButton = document.getElementById("landing-enter-button")
+  const enterVideo = document.getElementById("landing-enter-video")
+  const enterAudio = document.getElementById("landing-enter-audio")
+  enterButton.addEventListener("click", _ => {
+    enterVideo.play()
+    enterAudio.play()
+    enterButton.remove()
+  })
 })()
