@@ -171,7 +171,7 @@ const posts = [
     subtitle: "PUMA & J. Cole",
     title: "PUMA RS Dreamer",
     description:
-      "Photography and Videography, Creation Direction by Mez for HEIRS Entertainment\nProduced by HEIRS Entertainment",
+      "Photography and Videography, Creative Direction by Mez for HEIRS Entertainment\nProduced by HEIRS Entertainment",
     embed: (
       <iframe
         src="https://www.youtube.com/embed/CxfVhtlOVtk?rel=0&modestbranding=1"
