@@ -23,7 +23,7 @@ const Still = (props) => {
       })}
       as="img"
       src={src}
-      loading="lazy"
+      // loading="lazy"
     />
   );
 };
