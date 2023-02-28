@@ -6,7 +6,7 @@ import Flexbox from "../components/Flexbox";
 
 const paths = [
   "/work",
-  // "/directors",
+  "/directors",
   "/about",
   "/contact",
   "/shop",
