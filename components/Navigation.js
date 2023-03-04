@@ -9,7 +9,7 @@ const paths = [
   "/directors",
   "/about",
   "/contact",
-  "/shop",
+  // "/shop",
 ];
 
 const Navigation = () => {

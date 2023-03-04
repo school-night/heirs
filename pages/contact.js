@@ -5,16 +5,12 @@ import Text from "../components/Text";
 
 const items = [
   {
-    href: "mailto:tapin@heirs.us",
+    href: "mailto:info@madebyheirs.com",
     title: "Email",
   },
   {
-    href: "https://www.instagram.com/heirsentertainment",
+    href: "https://www.instagram.com/madexheirs",
     title: "Instagram",
-  },
-  {
-    href: "https://twitter.com/heirsent",
-    title: "Twitter",
   },
 ];
 const Page = () => {

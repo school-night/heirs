@@ -6,7 +6,7 @@ const Footer = () => {
     <Box css={{ textAlign: "center" }}>
       <Box marginTop={6} />
       <Text>
-        © HEIRS Entertainment {new Date().getFullYear()}. All rights reserved.
+        © MADEBYHEIRS {new Date().getFullYear()}. All rights reserved.
       </Text>
     </Box>
   );

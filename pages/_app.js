@@ -22,7 +22,10 @@ const App = (props) => {
         <meta property="og:url" content="https://madebyheirs.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="HEIRS Entertainment" />
-        <meta property="og:description" content="HEIRS Entertainment is our black-owned mixed media vernacular of choice for pain and struggle." />
+        <meta
+          property="og:description"
+          content="HEIRS Entertainment is our black-owned mixed media vernacular of choice for pain and struggle."
+        />
         <meta property="og:image" content="./assets/work/southside-mez.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>

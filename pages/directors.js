@@ -6,9 +6,9 @@ import IndexStillSmall from "../components/IndexStillSmall";
 import IndexTitle from "../components/IndexTitle";
 
 const posts = [
-  { slug: "kasey-elise-walker", title: "Kasey Elise Walker" },
-  { slug: "c-prinz", title: "C. Prinz" },
-  { slug: "mobolaji-olaoniye", title: "Mobolaji Olaoniye" },
+  // { slug: "kasey-elise-walker", title: "Kasey Elise Walker" },
+  // { slug: "c-prinz", title: "C. Prinz" },
+  // { slug: "mobolaji-olaoniye", title: "Mobolaji Olaoniye" },
   { slug: "mez", title: "Mez" },
   { slug: "yudai-maruyama", title: "Yudai Maruyama" },
 ];
